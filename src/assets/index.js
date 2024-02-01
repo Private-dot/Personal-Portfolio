@@ -26,6 +26,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import Kairalee from "./company/Kairalee.png";
+import HKBK from "./company/HKBK.png";
+import Deeksha from "./company/Deeksha.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -39,6 +43,9 @@ export {
   github,
   menu,
   close,
+  Kairalee,
+  HKBK,
+  Deeksha,
   css,
   docker,
   figma,

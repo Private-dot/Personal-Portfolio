@@ -18,6 +18,9 @@ import {
   meta,
   starbucks,
   tesla,
+  Kairalee,
+  HKBK,
+  Deeksha,
   shopify,
   carrent,
   jobit,
@@ -29,6 +32,10 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "educations",
+    title: "Education",
   },
   {
     id: "work",
@@ -46,43 +53,29 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AWS Architect",
     icon: backend,
   },
   {
     title: "Content Creator",
     icon: creator,
   },
+  
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -93,20 +86,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -116,32 +101,37 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Intership",
+    company_name: "Entuple Technologies",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2021 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my internship at Entuple Technologies, I had the opportunity to delve into various aspects of Python programming, gaining hands-on experience and valuable insights into the world of software development.",
+      "Project Involvement: Worked on diverse projects that honed my skills in Python programming.",
+      "Collaborative Development: Engaged in collaborative coding with team members, fostering a dynamic and knowledge-sharing environment. This experience not only enhanced my coding proficiency but also improved my ability to work effectively within a team.",
+      "Problem Solving: Encountered and successfully resolved challenges related to Python programming.",
+      "Learning Opportunities: Participated in workshops and training sessions organized by the company to stay updated with the latest advancements in Python and related technologies. This furthered my understanding of industry best practices.",
+      "Documentation: Emphasized the importance of thorough documentation in the development process. Prepared detailed documentation for the projects I worked on, ensuring clarity and ease of understanding for future reference.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Graduate Engineer Trainee",
+    company_name: "Pi-Square Technologies",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my tenure as a Graduate Engineer Trainee at Pi Square Technologies, I underwent comprehensive training in Amazon Web Services (AWS) and gained a deep understanding of various AWS services. This immersive experience was complemented by obtaining the AWS Certified Solutions Architect certification.",
+      "AWS Training: Acquired hands-on expertise in AWS cloud computing services, covering a spectrum of services such as [mention specific AWS services you were trained on, e.g., EC2, S3, RDS, etc.]. The training equipped me with the skills needed to design scalable and reliable architectures on the AWS platform.",
+      "AWS Certified Solutions Architect: Successfully completed the AWS Certified Solutions Architect certification, validating my proficiency in designing distributed systems and architectures on the AWS cloud. This certification serves as a testament to my commitment to excellence in cloud architecture.",
+      "Practical Application: Applied theoretical knowledge in real-world scenarios through practical exercises and projects, solidifying my ability to implement AWS solutions effectively.",
+      "Collaborative Learning: Engaged in collaborative learning environments, participating in knowledge-sharing sessions and discussions with peers to enhance understanding and problem-solving skills.",
+      "Documentation and Reporting: Developed strong documentation and reporting skills by creating comprehensive reports on AWS architecture designs and solutions. This skill set is crucial for effective communication and knowledge transfer within a team.",
+      "My time at Pi Square Technologies not only provided a solid foundation in AWS but also instilled in me the importance of continuous learning and practical application of knowledge. The AWS Certified Solutions Architect certification stands as a testament to my dedication to staying at the forefront of cloud technology.",
     ],
   },
-  {
+  /* {
     title: "Web Developer",
     company_name: "Shopify",
     icon: shopify,
@@ -167,38 +157,39 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  */
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Ankit's frontend development skills are simply top-notch. He effortlessly translates complex designs into clean, responsive, and user-friendly interfaces.",
+    name: "Uttam C",
+    designation: "Program Codinator",
+    company: "PI Square Tech",
+    image: "https://media.licdn.com/dms/image/D5603AQEp7qsQfJAw1g/profile-displayphoto-shrink_800_800/0/1682531842739?e=2147483647&v=beta&t=5G2EdhHSBbSjfwDUjvlHAwjMhn6qeuCAqdCxHR0YJao",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Ankit proved me wrong.",
+    name: "Niranjan Boggula",
+    designation: "Engineer",
+    company: "PI Square Tech",
+    image: "https://media.licdn.com/dms/image/D5603AQHZKngcuwOBjw/profile-displayphoto-shrink_400_400/0/1692854621147?e=1711584000&v=beta&t=zupml9vI_2GTbtW3l7kWajA151CEXAuHk7CNc4ni4gM",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Ankit does.",
+    name: "Sumanth M",
+    designation: "CEO",
+    company: "Rapak",
+    image: "https://media.licdn.com/dms/image/D5603AQH5vMf8Cu5-rQ/profile-displayphoto-shrink_400_400/0/1672738431252?e=1711584000&v=beta&t=GlaM3bWg8QPw06_6jxWt4y9vu_sECjj-Orly1_MSqvI",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Car Rent Dashboard",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -216,7 +207,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ankitkumaran3/Car-Rantal-Dashboard.git",
   },
   {
     name: "Job IT",
@@ -237,10 +228,10 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ankitkumaran3/project_react_native_jobs.git",
   },
   {
-    name: "Trip Guide",
+    name: "Travel Companion",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -258,8 +249,53 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ankitkumaran3/project_travel_advisor.git",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+
+const educations = [
+  {
+    degree: "Bachelor of Engineering in Electronics and Communications Engineering",
+    institution_name: "HKBK College Of Engineering",
+    icon: HKBK, // Replace with your college logo image
+    iconBg: "#2c3e50",
+    date: "2018 - 2022",
+    points: [
+      "Developed practical skills through diverse projects like Smart Blink Stick (wearable LED blinker) and Heart Attack Detector using facial expression analysis.",
+      "Strong foundation in core electronics and communications concepts.",
+      "Experienced collaborative learning and problem-solving within a team environment.",
+      "Exposed to cutting-edge technologies and industry trends through workshops and seminars.",
+      "Maintained thorough project documentation for future reference and knowledge sharing.",
+    ],
+  },
+  // Add more objects for each of your previous educational institutions and adjust the details accordingly.
+  {
+    degree: "Pre-University Course (Science & Mathematics)",
+    institution_name: "Deeksha Integrated PUC College",
+    icon: Deeksha, // Replace with your PUC college logo image
+    iconBg: "#34495e",
+    date: "2016 - 2018",
+    points: [
+      "Solidified my grounding in science and mathematics, building a strong foundation for higher studies.",
+      "Developed critical thinking and problem-solving skills through challenging coursework.",
+      "Engaged in collaborative learning and project work, refining my communication and teamworking abilities.",
+      "Participated in extracurricular activities that fostered personal growth and leadership skills.",
+    ],
+  },
+  {
+    degree: "High School",
+    institution_name: "Kairalee Nilayam Central School",
+    icon: Kairalee, // Replace with your high school logo image
+    iconBg: "#405d7c",
+    date: "2006 - 2016",
+    points: [
+      "Received a well-rounded education with a strong emphasis on academics and extracurricular activities.",
+      "Developed time management, organizational, and study skills that continue to benefit me today.",
+      "Participated in various clubs and teams, cultivating leadership, teamwork, and communication skills.",
+      "Gained a strong foundation in core subjects like mathematics, science, and humanities.",
+    ],
+  },
+];
+
+export { services, technologies, experiences, testimonials, educations, projects };
