@@ -2,7 +2,6 @@ import {
   mobile,
   backend,
   creator,
-  web,
   javascript,
   typescript,
   html,
@@ -12,6 +11,7 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  electronic,
   git,
   figma,
   docker,
@@ -49,10 +49,6 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
     title: "Frontend Developer",
     icon: mobile,
   },
@@ -61,14 +57,16 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Github",
     icon: creator,
   },
-  
+  {
+    title: "Electronics",
+    icon: electronic,
+  },
 ];
 
 const technologies = [
-  
   {
     name: "JavaScript",
     icon: javascript,
@@ -167,7 +165,8 @@ const testimonials = [
     name: "Uttam C",
     designation: "Program Codinator",
     company: "PI Square Tech",
-    image: "https://media.licdn.com/dms/image/D5603AQEp7qsQfJAw1g/profile-displayphoto-shrink_800_800/0/1682531842739?e=2147483647&v=beta&t=5G2EdhHSBbSjfwDUjvlHAwjMhn6qeuCAqdCxHR0YJao",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQEp7qsQfJAw1g/profile-displayphoto-shrink_800_800/0/1682531842739?e=2147483647&v=beta&t=5G2EdhHSBbSjfwDUjvlHAwjMhn6qeuCAqdCxHR0YJao",
   },
   {
     testimonial:
@@ -175,7 +174,8 @@ const testimonials = [
     name: "Niranjan Boggula",
     designation: "Engineer",
     company: "PI Square Tech",
-    image: "https://media.licdn.com/dms/image/D5603AQHZKngcuwOBjw/profile-displayphoto-shrink_400_400/0/1692854621147?e=1711584000&v=beta&t=zupml9vI_2GTbtW3l7kWajA151CEXAuHk7CNc4ni4gM",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQHZKngcuwOBjw/profile-displayphoto-shrink_400_400/0/1692854621147?e=1711584000&v=beta&t=zupml9vI_2GTbtW3l7kWajA151CEXAuHk7CNc4ni4gM",
   },
   {
     testimonial:
@@ -183,7 +183,8 @@ const testimonials = [
     name: "Sumanth M",
     designation: "CEO",
     company: "Rapak",
-    image: "https://media.licdn.com/dms/image/D5603AQH5vMf8Cu5-rQ/profile-displayphoto-shrink_400_400/0/1672738431252?e=1711584000&v=beta&t=GlaM3bWg8QPw06_6jxWt4y9vu_sECjj-Orly1_MSqvI",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQH5vMf8Cu5-rQ/profile-displayphoto-shrink_400_400/0/1672738431252?e=1711584000&v=beta&t=GlaM3bWg8QPw06_6jxWt4y9vu_sECjj-Orly1_MSqvI",
   },
 ];
 
@@ -207,7 +208,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/ankitkumaran3/Car-Rantal-Dashboard.git",
+    source_code_link:
+      "https://github.com/ankitkumaran3/Car-Rantal-Dashboard.git",
   },
   {
     name: "Job IT",
@@ -228,7 +230,8 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/ankitkumaran3/project_react_native_jobs.git",
+    source_code_link:
+      "https://github.com/ankitkumaran3/project_react_native_jobs.git",
   },
   {
     name: "Travel Companion",
@@ -249,14 +252,15 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/ankitkumaran3/project_travel_advisor.git",
+    source_code_link:
+      "https://github.com/ankitkumaran3/project_travel_advisor.git",
   },
 ];
 
-
 const educations = [
   {
-    degree: "Bachelor of Engineering in Electronics and Communications Engineering",
+    degree:
+      "Bachelor of Engineering in Electronics and Communications Engineering",
     institution_name: "HKBK College Of Engineering",
     icon: HKBK, // Replace with your college logo image
     iconBg: "#2c3e50",
@@ -298,4 +302,11 @@ const educations = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, educations, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  educations,
+  projects,
+};
