@@ -255,6 +255,51 @@ const projects = [
     source_code_link:
       "https://github.com/ankitkumaran3/project_travel_advisor.git",
   },
+  {
+    name: "Admin Dashboard",
+    description:
+      "The Admin Dashboard is a centralized platform designed to empower administrators with comprehensive control, monitoring, and management capabilities over the system.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      "https://athemes.com/wp-content/uploads/Vue-Black-Dashboard-Pro-PREMIUM-VUEJS-ADMIN-TEMPLATE-768x576.jpg",
+    source_code_link: "https://github.com/ankitkumaran3/Admin-Dashboard.git",
+  },
+  {
+    name: "E-Commerce Website",
+    description:
+      "Our e-commerce platform is a dynamic online marketplace designed to revolutionize the way users discover, purchase, and interact with a diverse range of products and services. With its user-centric design, seamless functionality, and innovative features, our platform offers an unparalleled shopping experience tailored to the modern consumer.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      "https://assets.materialup.com/uploads/dbb92967-5586-4eb8-9675-f0b3c47ff565/preview.png",
+    source_code_link:
+      "https://github.com/ankitkumaran3/e-commerce-Rappack-.git",
+  },
 ];
 
 const educations = [
