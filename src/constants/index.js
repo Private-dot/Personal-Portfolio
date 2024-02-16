@@ -45,6 +45,11 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "resume", // unique id for the resume link
+    title: "Download Resume",
+    url: "https://drive.google.com/file/d/1rXQUe0c39etxcHQpiL79E01F-YTKJeGR/view?usp=drive_link", // replace with the actual URL of your resume file
+  },
 ];
 
 const services = [
