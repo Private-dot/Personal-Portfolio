@@ -305,6 +305,28 @@ const projects = [
     source_code_link:
       "https://github.com/ankitkumaran3/e-commerce-Rappack-.git",
   },
+  {
+    name: "Metaverse Stylish Blog",
+    description:
+      "Metaverse Stylish Blog: Your premier destination for navigating the evolving realms of technology, creativity, and digital culture in the vibrant metaverse. immerse yourself in the boundless.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      "https://mir-s3-cdn-cf.behance.net/projects/404/3b14df185096023.Y3JvcCwxMzY5LDEwNzEsMzcsMA.png",
+    source_code_link: "https://github.com/ankitkumaran3/Metaverse-Website-.git",
+  },
 ];
 
 const educations = [
