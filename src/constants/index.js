@@ -299,7 +299,7 @@ const projects = [
   {
     name: "E-Commerce Website",
     description:
-      "Our e-commerce platform is a dynamic online marketplace designed to revolutionize the way users discover, purchase, and interact with a diverse range of products and services. With its user-centric design, seamless functionality, and innovative features, our platform offers an unparalleled shopping experience tailored to the modern consumer.",
+      "Our e-commerce platform is a dynamic online marketplace designed to revolutionize the way users discover, purchase, and interact with a diverse range of products and services.",
     tags: [
       {
         name: "react",
